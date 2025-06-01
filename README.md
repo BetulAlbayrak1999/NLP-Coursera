@@ -15,3 +15,6 @@ The **Predict Tweets** notebook implements a sentiment analysis system using `lo
 
 ### Naive Bayes
 This notebook implements a Naive Bayes classifier to detect sentiment `(positive or negative)` in tweets. It starts by preprocessing tweets (e.g., removing stopwords and symbols), then counts how frequently each word appears in positive and negative tweets. Using these frequencies, it calculates the log prior (overall sentiment bias) and `log likelihoods` (how much each word influences sentiment). The model then predicts the sentiment of new tweets based on the presence of these words. Finally, it evaluates accuracy and extracts the most influential positive or negative words using a ratio-based threshold.
+
+### manipulating_word_embeddings
+This Jupyter Notebook, titled `6manipulating_word_embeddings.ipynb`, is part of the NLP-Coursera repository by Betul Albayrak. It focuses on the practical aspects of manipulating word embeddings, which are crucial for various natural language processing tasks. The notebook provides hands-on examples and code snippets that demonstrate how to load, visualize, and modify word embeddings, enabling users to understand their properties and applications in machine learning models. This resource is ideal for learners looking to deepen their understanding of word embeddings in NLP.
