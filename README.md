@@ -21,3 +21,14 @@ This Jupyter Notebook, titled `6manipulating_word_embeddings.ipynb`, is part of 
 
 ### Predict_Countries_from_Capitals
 The notebook `Predict_Countries_from_Capitals` implements a classic word analogy task using pre-trained word embeddings. Specifically, it aims to predict a country given a known capital-city–country pair and another capital city, applying the famous vector arithmetic: "King - Man + Woman = Queen". It defines core functions such as `cosine_similarity`, `euclidean`, `get_country`, and `get_accuracy`, which work together to compare embeddings and evaluate how well the model predicts countries based on analogical reasoning. The file also includes a `PCA-based` visualization to project high-dimensional embeddings into 2D space, helping to visually inspect the semantic structure of words. This notebook is typically used in NLP or machine learning courses to demonstrate how word embeddings capture semantic relationships.
+
+### Naive_Machine_Translation_and_LSH
+The Naive_Machine_Translation_and_LSH file demonstrates a basic machine translation pipeline that maps English word embeddings to French word embeddings using linear transformation. It includes functions for training the transformation matrix via gradient descent, evaluating translation accuracy using nearest neighbor search, and accelerating similarity search with Locality-Sensitive Hashing (LSH). The notebook provides a hands-on introduction to cross-lingual embedding alignment, showcasing how simple linear algebra and hashing techniques can be applied to build a foundational word translation system.
+
+
+
+
+
+
+
+
